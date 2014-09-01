@@ -1,0 +1,60 @@
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<body>
+	<div class="gameconsole">
+		<button id="startgame">Start Game</button>
+		<div class="question">
+			<h3 class="questionheading">Question Number <span class="noValue"></span></h3>
+		</div>
+		<div class="round1">
+			<h3 class="choosenParticipant"></h3>
+			<button class="answered">Answered</button>
+			<button class="passed">Passed</button>
+			<button class="nextround">Next Round</button>
+		</div>
+		
+		<div class="round2">
+			<h3 class="choosenParticipant"></h3>
+			<button class="answered">Answered</button>
+			<button class="passed">Passed</button>
+			<button class="nextround">Next Round</button>
+		</div>
+
+		<div class="round3">
+			<h3 class="choosenParticipant"></h3>
+			<button class="answered">Answered</button>
+			<button class="passed">Passed</button>
+			<button class="nextround">Next Round</button>
+		</div>
+		<div class="winner">
+			<h3 class="chosenone"></h3>
+		</div>
+	</div>
+	
+	<div class="round1top">
+		<table>
+			<thead>
+				<tr>
+					<td>no</td>
+					<td class="col">Name</td>
+					<td>Points</td>
+				</tr>
+			</thead>
+			<tbody class="round1topbody"></tbody>
+		</table>
+	</div>
+	<div class="scoreboard">
+		<table>
+			<thead>
+				<tr>
+					<td>Question</td>
+					<td class="col">Name</td>
+					<td>Points</td>
+				</tr>
+			</thead>
+			<tbody class="scorebody"></tbody>
+		</table>
+	</div>
+</body>
+
